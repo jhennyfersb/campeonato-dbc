@@ -9,10 +9,10 @@ public class Main {
         int m = sc.nextInt();
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int sub = m - a - b;
-        if (sub > a && sub > b) {
-            System.out.println(sub);
-        } else if (a > sub && a > b) {
+         m = m - a - b;
+        if (m > a && m > b) {
+            System.out.println(m);
+        } else if (a > m && a > b) {
             System.out.println(a);
         } else {
             System.out.println(b);
