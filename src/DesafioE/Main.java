@@ -8,9 +8,10 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        int somA = a + a;
-        int somB = b + b;
-        System.out.println(somA + " " + somB);
+
+        a += a;
+        b += b;
+        System.out.println(a + " " + b);
 
     }
 }
